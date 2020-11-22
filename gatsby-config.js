@@ -34,7 +34,9 @@ const gatsbyPluginAliasImports = {
   resolve: `gatsby-plugin-alias-imports`,
   options: {
     alias: {
-      'components': path.resolve(__dirname, 'src/components'),
+      components: path.resolve(__dirname, 'src/components'),
+      hooks: path.resolve(__dirname, 'src/hooks'),
+      services: path.resolve(__dirname, 'src/services'),
     },
     extensions: ['js', 'sass'],
   },
@@ -55,6 +57,5 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-layout`,
-    `gatsby-plugin-provide-react`,
   ],
 }
