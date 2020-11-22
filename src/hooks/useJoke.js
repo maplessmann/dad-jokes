@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import services from 'services'
+import debounce from 'helpers/debounce'
 
 const useJoke = () => {
   const [joke, setJoke] = useState('')
@@ -14,7 +15,7 @@ const useJoke = () => {
 
   return {
     joke,
-    getRamdomJoke,
+    getRamdomJoke: debounce(getRamdomJoke, 300),
   }
 }
 
