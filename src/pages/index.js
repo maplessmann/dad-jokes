@@ -1,12 +1,7 @@
 import Joke from 'components/Joke'
 
-const IndexPage = () => {
-  return (
-    <div className="home-page">
-      <h1>Dad Joke</h1>
-      <Joke />
-    </div>
-  )
+const Home = () => {
+  return <Joke />
 }
 
-export default IndexPage
+export default Home
