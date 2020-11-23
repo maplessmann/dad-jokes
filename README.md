@@ -1,29 +1,3 @@
-# gatsby-advanced-boilerplate
+<h1 align="center">Dad Jokes</h1>
 
-🚀 A Gatsby boilerplate to help you create static and fast websites
-
-## Install
-
-```bash
-npm install
-```
-
-## Run
-
-```bash
-npm run start
-```
-
-Open the local server at `localhost:8000`
-
-## Build
-
-```bash
-npm run build && npm run serve
-```
-
-Open the server at `localhost:9000`
-
-## Performance
-
-![image](https://user-images.githubusercontent.com/12679778/99896552-56412000-2c70-11eb-9207-2aeb461791be.png)
+![image](https://user-images.githubusercontent.com/12679778/99931375-04150300-2d33-11eb-8aa7-e22ba79d5f43.png)
