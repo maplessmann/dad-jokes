@@ -1,8 +1,13 @@
+:root {
+  --text: #fff;
+  --primary: #d66d75;
+  --background: linear-gradient(to right, #dc581d, #f79659);
+}
+
 body {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   margin: 0;
-  background: #d66d75;
-  background: linear-gradient(to right, #d66d75, #e29587);
+  background: var(--background);
 }
 
 .container {
