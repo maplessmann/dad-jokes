@@ -45,8 +45,8 @@ const gatsbyPluginAliasImports = {
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Advanced Boilerplate`,
-    description: `A Gatsby boilerplate to help you build static websites`,
+    title: `Dad Jokes`,
+    description: `Random Dad Jokes`,
     author: `@maplessmann`,
   },
   plugins: [
